@@ -31,5 +31,5 @@ module.exports = {
         './src/typescript.js',
         './src/react.js',
     ].map(require.resolve),
-    rules: {},
+    rules: { 'no-unused-vars': 'off' },
 };

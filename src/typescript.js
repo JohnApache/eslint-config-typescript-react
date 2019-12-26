@@ -18,11 +18,22 @@ module.exports = {
                 },
             },
         ],
+
         '@typescript-eslint/type-annotation-spacing': [
             'error',
             {
                 before: false,
                 after : true,
+            },
+        ],
+
+        '@typescript-eslint/no-unused-vars': [
+            'error',
+            {
+                vars              : 'all',
+                args              : 'after-used',
+                ignoreRestSiblings: false,
+                caughtErrors      : 'all',
             },
         ],
     },
