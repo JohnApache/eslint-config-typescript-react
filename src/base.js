@@ -127,7 +127,7 @@ module.exports = {
                     -2,
                 ],
                 ignoreArrayIndexes: true,
-                detectObjects     : flase,
+                detectObjects     : false,
             },
         ],
         'no-multi-spaces': [
